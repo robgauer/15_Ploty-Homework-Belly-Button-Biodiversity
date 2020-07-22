@@ -1,25 +1,5 @@
 # Plot.ly Homework - Belly Button Biodiversity
 
-![RobGauer-Homewwork-Output-Capture.PNG](images/RobGauer-Homework-Output-Capture.PNG)
-
-## Rob Gauer
-## Plot.ly Homework - Interactive Visualizations and Dashboards.
-* https://github.com/robgauer/15_Belly_Button_Biodiversity/blob/master/
-* Deployed to GitHub Pages. Link:  
-* Date Due:  June 27, 2020
-
-# 
-### Homework file structure reference information:
-* Instructions:  README.md 
-* File Name:  code/js/plots.js
-* Dataset: data/samples.json
-* HTML:  index.html
-
-# 
-# 
-# Plot.ly Homework - Belly Button Biodiversity
-### INSTRUCTIONS
-### Homework Interactive Visualizations and Dashboards.
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
 In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Belly Button Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <!-- Main page title information and description / introduciton paragraph -->
+      <div class="col-md-12 jumbotron text-center">
+        <h1><strong>Belly Button Biodiversity</h1> 
+        <h1>Dashboard</strong></h1>
+        <p>This assignment displays an interactive dashboard to explore the Belly Button Biodiversity dataset.
+          Reference:  (http://robdunnlab.com/projects/belly-button-biodiversity/). The dataset catalogs the 
+          microbes that colonize human navels. The dataset reveals that a small handful of microbial species 
+          (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% 
+          of people, while the rest were relatively rare.
+        </p>
+        <p><strong>Use the interactive charts below to explore the dataset</strong></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5><strong>SELECT <br> Test Subject ID No.:</strong></h5>
+          <!-- Dropdown menu option to select 'Test Subject ID' DIV -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <!-- Populate the Demographic data inside this DIV -->
+            <h3 class="panel-title">Demographic Information</h3>
+          </div>
+          <!-- Populate the Demographic data inside this DIV -->
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <!-- Plotly bar chart will be drawn inside this DIV -->
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <!-- Plotly guage chart will be drawn inside this DIV -->
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <!-- Plotly bubble chart will be drawn inside this DIV -->
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© Copyright Rob Gauer 2020. 
+        <a href="index.html"> Belly Button Biodiversity Dashboard. </a><br>
+        <a href="index.html"> Homework Plot.ly Interactive Visualizations and Dashboards. </a>
+    </div>
+  </footer>        
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <!-- Load plotly.js into the DOM -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- Run JavaScript files -->
+  <script src="./code/js/plots.js"></script>
+  <!-- <script src="./code/js/bonus.js"></script> -->
+  <!-- Reference for the dataset json file -->
+  <script src="./data/samples.json"></script>
+  
+</body>
+
+</html>
