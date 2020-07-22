@@ -5,7 +5,7 @@
 ## Rob Gauer
 ## Plot.ly Homework - Interactive Visualizations and Dashboards.
 * https://github.com/robgauer/15_Belly_Button_Biodiversity/blob/master/
-* Deployed to GitHub Pages. Link:  
+* Deployed to GitHub Pages. Link: https://robgauer.github.io/15_Ploty-Homework-Belly-Button-Biodiversity/ 
 * Date Due:  June 27, 2020
 
 # 
